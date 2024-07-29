@@ -5,4 +5,13 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - name: first step 
-      run: echo "Awesome ur first job"
+      run: echo "Awesome ur first job starts"
+    - name: second step 
+      run: echo "Awesome ur firs job ends"
+  Myjob2:
+   runs-on: windows-latest
+   steps:
+    - name: first step 
+      run: echo "Awesome ur second job starts"
+    - name: second step 
+      run: echo "Awesome ur second job ends"
