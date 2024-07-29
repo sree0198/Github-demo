@@ -2,7 +2,7 @@ name : SreeWorkFlow
 on : workflow_dispatch
 jobs:
   Myjob1:
-   runs-on: ubuntu-latest
+   runs-on: ubuntu-latest23e
    steps:
     - name: first step 
       run: echo "Awesome ur first job starts"
