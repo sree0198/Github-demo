@@ -2,13 +2,14 @@ name : SreeWorkFlow
 on : workflow_dispatch
 jobs:
   Myjob1:
-   runs-on: ubuntu-latest23e
+   runs-on: ubuntu-latest
    steps:
     - name: first step 
       run: echo "Awesome ur first job starts"
     - name: second step 
-      run: echo "Awesome ur firs job ends"
+      run: echo "Awesome ur firs job ends
   Myjob2:
+   needs: Myjob1
    runs-on: windows-latest
    steps:
     - name: first step 
